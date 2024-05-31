@@ -1,69 +1,31 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
-  "id": "com.openai.ChatGPT",
-  "version": "1.6.3",
+  "id": "com.openai.openai-assistant",
+  "version": "0.0.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
     "local"
   ],
   "name": {
-    "en": "OpenAI"
+    "en": "OpenAI Assistant"
   },
   "description": {
-    "en": "Interact with ChatGPT and generate images with DALL·E through flows.",
-    "no": "Snakk med ChatGPT og generer bilder med DALL·E ved hjelp av flows."
+    "en": "OpenAI-based voice assistant"
   },
   "category": [
     "internet"
   ],
-  "permissions": [],
+  "permissions": [
+    "homey:manager:api"
+  ],
   "images": {
     "small": "/assets/images/small.png",
     "large": "/assets/images/large.png",
     "xlarge": "/assets/images/xlarge.png"
   },
-  "contributing": {
-    "donate": {
-      "githubSponsors": {
-        "username": "frodeheg"
-      }
-    }
-  },
   "author": {
-    "name": "Frode Heggelund",
-    "email": "frode.heggelund@gmail.com"
-  },
-  "contributors": {
-    "developers": [
-      {
-        "name": "Frode Heggelund",
-        "email": "frode.heggelund@gmail.com"
-      },
-      {
-        "name": "Tor Kreutzer"
-      },
-      {
-        "name": "Pixy.org",
-        "what": "Artwork",
-        "url": "https://pixy.org"
-      }
-    ],
-    "translators": [
-      {
-        "name": "🇳🇴 🇬🇧 Frode Heggelund"
-      },
-      {
-        "name": "🇬🇧 Tor Kreutzer"
-      }
-    ]
-  },
-  "api": {
-    "updateLog": {
-      "method": "GET",
-      "path": "/updateLog",
-      "public": false
-    }
+    "name": "Menno & Wouter"
   },
   "tags": {
     "en": [
@@ -75,8 +37,7 @@
     ]
   },
   "brandColor": "#050505",
-  "source": "https://github.com/frodeheg/OpenAI",
-  "homeyCommunityTopicId": 74750,
+  "source": "https://github.com/mennovanhout/OpenAI-assistant",
   "flow": {
     "triggers": [
       {
